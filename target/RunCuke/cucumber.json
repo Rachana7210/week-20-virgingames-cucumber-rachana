@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 109098800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I accepted cookies",
+            "match": {
+              "location": "LiveCasinoStepdefs.iAcceptedCookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131744700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can see virgingame homepage",
+            "match": {
+              "location": "LiveCasinoStepdefs.iCanSeeVirgingameHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5203342300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should navigate to Live Casino page successfully",
+        "description": "",
+        "id": "livecasino-test;user-should-navigate-to-live-casino-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 184300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LiveCasinoStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Live Casino tab",
+            "match": {
+              "location": "LiveCasinoStepdefs.iClickOnLiveCasinoTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107108000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see Live Casino page successfully",
+            "match": {
+              "location": "LiveCasinoStepdefs.iShouldSeeLiveCasinoPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LiveCasino Test",
+    "description": "As a user I want to click on Live Casino test on Virgingames website",
+    "id": "livecasino-test",
+    "keyword": "Feature",
+    "uri": "LiveCasino.feature"
+  }
+]
